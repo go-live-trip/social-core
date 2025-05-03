@@ -65,8 +65,8 @@ class YandexOAuth2(BaseOAuth2):
 
 class YaruOAuth2(BaseOAuth2):
     name = "yaru"
-    AUTHORIZATION_URL = "https://oauth.yandex.com/authorize"
-    ACCESS_TOKEN_URL = "https://oauth.yandex.com/token"
+    AUTHORIZATION_URL = "https://oauth.yandex.ru/authorize"
+    ACCESS_TOKEN_URL = "https://oauth.yandex.ru/token"
     REDIRECT_STATE = False
 
     def get_user_details(self, response):
