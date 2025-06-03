@@ -19,6 +19,11 @@ Project documentation is available at https://python-social-auth.readthedocs.io/
 ```shell
 $ pip install social-auth-core
 ```
+```shell
+git clone https://github.com/go-live-trip/social-core
+cd social-core
+pip install tox
+```
 
 ## Contributing
 
